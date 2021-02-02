@@ -20,7 +20,7 @@ def home():
    response_data = dict(
       message="Eduardo"
    )
-   return render_template("first_template.html", **response_data)
+   return render_template("first_template.html", **response_data), 201
 
 
 @app.route('/edit-cookie', methods=['GET', 'POST'])

@@ -1,7 +1,13 @@
 <html>
+    <head>
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='main.css') }}">
+    </head>
     <body>
-        <p>
-            Hola {{ message }}
-        </p>
+        <div id="content">
+            <p class="content_class">
+                Hola {{ message }}
+            </p>
+        </div>
     </body>
 </html>
