@@ -31,6 +31,7 @@ $ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 $ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
 ```
 
+
 Install python enviroment
 ```bash
 $ pyenv install 3.9.0
