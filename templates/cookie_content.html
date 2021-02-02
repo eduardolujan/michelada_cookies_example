@@ -1,0 +1,16 @@
+<html>
+    <body>
+
+        <div id="content">
+            <table>
+                {% for key in cookies %}
+                    <tr>
+                        <td>{{ key }}</td>
+                        <td>{{ cookies[key] }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+
+        </div>
+    </body>
+</html>
